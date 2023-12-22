@@ -1,6 +1,6 @@
 # Computer Vision Flower Classification with Resnet50
 
-![](./preview/preview-1.gif)
+![](./preview.gif)
 
 ## Computer Vision Flower Classification with Resnet50, TensorFlow and Streamlit
 
@@ -15,7 +15,5 @@ Test it Locally by running the `app.py` file, built with `Streamlit` Remember fi
 streamlit run app.py
 ```
 
-![](./preview/preview-2.gif)
-
 ## Resources
-Flowers Dataset: https://www.kaggle.com/datasets/nunenuh/pytorch-challange-flower-dataset?select=dataset
+- Flowers Dataset: https://www.kaggle.com/datasets/nunenuh/pytorch-challange-flower-dataset?select=dataset
