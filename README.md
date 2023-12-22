@@ -4,20 +4,15 @@
 
 ## Computer Vision Flower Classification with Resnet50, TensorFlow and Streamlit
 
-The Face Mask Detection Model was trained using the YOLOv8 Architecture, the Google Colab GPU and with over 2600 Face Mask Images. The U.I. was built with Streamlit. It can be test it with uploading a Picture, Video, or in Real Time Detection.
+The Flower Classification Model was trained using the ResNet50 Architecture and the Transfer Learning Deep Learning Technique, also with the Google Colab GPU and with over 8000 Flower Images. The U.I. was built with Streamlit. It can be test it with uploading a Picture.
 
 ## Run it Locally
 
-Test it Locally by running the `app.py` file, built with `Streamlit`, and the `api.py` file with `Flask`. Remember first to run the `api.py` file, copy the http url and saved in the API variable of the `app.py` file, and uncomment the code lines.
-
+Test it Locally by running the `app.py` file, built with `Streamlit` Remember first to train the model in the `flower_classification.ipynb` file and saved in the the `model` folder.
 ## App made with Streamlit
+
 ```sh
 streamlit run app.py
-```
-
-## Deployed with Flask
-```sh
-python3 api.py
 ```
 
 ![](./preview/preview-2.gif)
